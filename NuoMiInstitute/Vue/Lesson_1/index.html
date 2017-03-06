@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>动态数据绑定</title>
+</head>
+<body>
+<script>
+    let app1 = new Observer({
+        name: 'youngwind',
+        age: 25
+    });
+
+    let app2 = new Observer({
+        university: 'bupt',
+        major: 'computer'
+    });
+
+
+    app1.data.name // 你访问了 name
+    app.data.age = 100;  // 你设置了 age，新的值为100
+    app2.data.university // 你访问了 university
+    app2.data.major = 'science'  // 你设置了 major，新的值为 science
+
+</script>
+
+<script src="//cdn.bootcss.com/vue/2.1.10/vue.min.js"></script>
+</body>
+</html>
