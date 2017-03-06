@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>百度ife 2017 小薇学院 课程2</title>
+    <link href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: #dedede;
+        }
+
+
+        .header{
+            width: 100%;
+            height:60px;
+            background-color: #333333;
+        }
+        .header .logo{
+            width:150px;
+            height:60px;
+            float:left
+        }
+        .header .nav{
+            float:right;
+            line-height: 30px;
+        }
+        .header .nav .nav-menu{
+            float:left ;
+            margin-right: 20px;
+        }
+        .header .nav .nav-menu a{
+            text-decoration: none;
+        }
+        .header .nav .nav-menu a:link{
+            color:#ffffff
+        }
+        .header .nav .nav-menu a:visited{
+            color:#989698
+        }
+        /* 头部样式结束 */
+
+
+        .contain  article,.contain .aside{
+            margin-left: 5px;
+            margin-right: 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            border-right: 5px solid #b6b6b6;
+            padding-top:35px;
+            padding-bottom:35px;
+            padding-left:20px
+        }
+
+        article  h3{
+            color:#777777;
+        }
+        article .author{
+            color:#dadcde;
+        }
+
+        article .pic_item{
+            width: 120px;
+            padding: 10px;
+            border: 1px solid;
+            list-style-type: none;
+        }
+        article .pic_item img{
+            border-style: none;
+            text-align: center;
+            margin: 10px;
+            width: 100px;
+        }
+
+        article .pic_tit{
+            text-align: center;
+            display: block;
+        }
+
+
+
+
+        #last_article li{
+            line-height: 1.5em;
+        }
+
+        #last_article table{
+            border-collapse:collapse;
+            width:100%;
+            font-size: 0.8em;
+            line-height: 2em;
+        }
+        #last_article    th
+        {
+            background-color: black;
+            color:#fff
+        }
+        #last_article   table,th, td
+        {
+            border: 1px solid  #cccccc;
+        }
+        #last_article table tr.table_footer
+        {
+            background-color: #cccccc;
+        }
+        /* 最后一篇文章 */
+
+
+        .aside .aside_title{
+            border-left: 3px solid #cccccc;
+            padding-left: 30px;
+            line-height: 2em;
+        }
+
+        .aside_panel .group{
+            clear: both;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .aside_panel .left{
+            width:370px;
+            float:left
+        }
+        .aside_panel .left span{
+            float:right
+        }
+        .aside_panel .right{
+            float:left
+        }
+        .aside_panel button{
+            width: 97%;
+            height: 40px;
+            border-radius: 5px;
+            background-color: #3355d0;
+            border: none;
+            color: #fff;
+        }
+
+        /* 侧边栏 */
+
+
+
+        .footer{
+            background-color: #000;
+            color:#fff;
+            text-align: center;
+            line-height: 120px;
+            height:120px
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="http://pic9.997788.com/logo/00/09/29/logo92996.jpg"/>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="nav-menu"><a href="#1">导航链接一</a></li>
+            <li class="nav-menu"><a href="#2">导航链接二</a></li>
+            <li class="nav-menu"><a href="#3">导航链接三</a></li>
+            <li class="nav-menu"><a href="#4">导航链接四</a></li>
+        </ul>
+    </div>
+    <!-- 参考了 ife.baidu.com 顶部导航的结构 -->
+</div>
+<div class="contain">
+    <article>
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <div class="author">文章作者 文章发表时间</div>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            <br/>换行了<br/>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            <a href="https://github.com/xwjonline/ife2017_xwjonline_directory" target="_blank">这里有一个链接</a>
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            <br/>
+            <img width="300px" src="https://img.alicdn.com/imgextra/i1/2248773408/TB2cWFchylnpuFjSZFgXXbi7FXa_!!2248773408.jpeg" />
+            <br/>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+            
+
+        </p>
+    </article>
+    <article>
+
+        <h3>图片</h3>
+
+        <ul>
+            <li class="pic_item">
+                <span class='pic_tit'>好看的图片</span>
+                <img src="https://img.alicdn.com/imgextra/i1/2248773408/TB2cWFchylnpuFjSZFgXXbi7FXa_!!2248773408.jpeg" />
+            </li>
+        </ul>
+        <ul>
+            <li class="pic_item">
+                <span class='pic_tit'>好看的图片</span>
+                <img src="https://img.alicdn.com/imgextra/i1/2248773408/TB2cWFchylnpuFjSZFgXXbi7FXa_!!2248773408.jpeg" />
+            </li>
+        </ul>
+        <ul>
+            <li class="pic_item">
+                <span class='pic_tit'>好看的图片</span>
+                <img src="https://img.alicdn.com/imgextra/i1/2248773408/TB2cWFchylnpuFjSZFgXXbi7FXa_!!2248773408.jpeg" />
+            </li>
+        </ul>
+        <ul>
+            <li class="pic_item">
+                <span class='pic_tit'>好看的图片</span>
+                <img src="https://img.alicdn.com/imgextra/i1/2248773408/TB2cWFchylnpuFjSZFgXXbi7FXa_!!2248773408.jpeg" />
+            </li>
+        </ul>
+    </article>
+
+    <article id="last_article">
+        <h2>最后一篇文章一级标题</h2>
+        <h3>文章2级标题</h3>
+
+        <div class="author">文章作者 文章发表时间</div>
+        <ul>
+            <li>
+                1.排名1
+            </li>
+            <li>
+                2.排名2
+            </li>
+            <li>
+                3.排名3
+            </li>
+        </ul>
+        下面是一个表格，给表格加了border='1'可以看出这是一个表格
+        <table border="1">
+            <thead >
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr class="table_footer">
+                <td>总计</td>
+                <td colspan="2">1000</td>
+            </tr>
+            </tbody>
+        </table>
+    </article>
+
+
+
+
+    <div class="aside">
+        <h2 class="aside_title">这里是一个侧栏，这里是测栏的标题</h2>
+        <!--h3 class="aside_window_title">测栏注册窗口标题</h3-->
+
+        <div class="aside_panel">
+            <div class="group">
+
+                <label>
+                    <div class='left'><span>请输入邮箱地址：</span></div>
+                    <div class='right'>
+                        <input name="email" placeholder="这是一个文本输入框"/>
+                        <br/>
+                        <p>邮箱地址请按要求格式输入</p>
+                    </div>
+
+                </label>
+            </div>
+            <div class="group">
+
+
+                <label>
+                    <div class='left'><span>请输入密码：</span></div>
+                    <div class='right'>
+                        <input name="password" type="password" placeholder="这是一个文本输入框"/>
+                    </div>
+
+                </label>
+            </div>
+            <div class="group">
+                <label>
+                    <div class='left'><span>请重复输入密码：</span></div>
+                    <div class='right'>
+                        <input name="password_re" type="password" placeholder="这是一个文本输入框"/>
+
+                        <p>密码为6-16为英文数字</p>
+                    </div>
+
+                </label>
+
+            </div>
+
+
+            <div class="group">
+                <label>
+                    <div class='left'><span>性别：</span></div>
+                    <div class='right'>
+
+                        <input name="sex" type="radio" value="male" /> 男
+                        <input name="sex" type="radio" value="female" /> 女
+                    </div>
+
+                </label>
+
+            </div>
+
+
+
+            <div class="group">
+                <label>
+                    <div class='left'><span>城市：</span></div>
+                    <div class='right'>
+
+                        <select name="city">
+                            <option>无锡</option>
+                        </select>
+                    </div>
+
+                </label>
+
+            </div>
+
+
+            <div class="group">
+                <label>
+                    <div class='left'><span>爱好：</span></div>
+                    <div class='right'>
+                        <input name="love[]" type="checkbox" value="运动" /> 运动
+                        <input name="love[]" type="checkbox" value="艺术" /> 艺术
+                        <input name="love[]" type="checkbox" value="科学" /> 科学
+                    </div>
+
+                </label>
+
+            </div>
+
+
+            <div class="group">
+                <label>
+                    <div class='left'><span>个人描述：</span></div>
+                    <div class='right'>
+                        <!-- 如何使用TEXTAREA自适应宽度？ -->
+                        <textarea style="width: 718px; height: 79px;">
+                        </textarea>
+                    </div>
+                </label>
+            </div>
+
+            <div class="group">
+                <button>确认提交</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">版权所有 ©️ </div>
+</div>
+</body>
+</html>
