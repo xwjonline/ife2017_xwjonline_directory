@@ -7,7 +7,9 @@
     <style>
 
         /* global */
-
+        #back_top{
+            color:#ffffff
+        }
         a {
             text-decoration: none;
         }
@@ -39,6 +41,14 @@
             padding-bottom: 11px;
             color:#E44F4F;
             width: 65px;
+            text-align: center;
+        }
+
+
+        header nav li:hover{
+            border-bottom: solid #E44F4F 3px;
+            padding-bottom: 11px;
+            color:#E44F4F;
             text-align: center;
         }
         header nav a{
@@ -157,7 +167,7 @@
             border-right: 50px solid #ffffff;
             border-bottom: 25px solid transparent;
             position: absolute;
-            left:830px;
+            left:831px;
             top:200px;
         }
         #triangle-right {
@@ -250,6 +260,187 @@
         .line_short.red{
             background-color: #e65153;
         }
+
+
+
+        .right .group{
+            padding-bottom: 2px;
+            margin:10px;
+            background-color: #ededef;
+        }
+        .right .group.textarea{
+            padding-top:20px;
+        }
+        .right label{
+            padding-left: 25px;
+        }
+        .right input{
+            border:none;
+            height:40px;
+            width:640px;
+            background-color: #ededef
+
+        }
+        .right textarea{
+            border:none;
+            display: block;
+            width: 691px;
+            height: 123px;
+            margin-top:20px;
+            resize:none;
+            background-color: #ededef
+        }
+        .right .btn_offer{
+            width: 80%;
+            background-color: #ffffff;
+            margin-left: 50px;
+        }
+
+
+
+
+
+
+        .be_our_student{
+            padding: 50px;
+        }
+        .be_our_student:after{
+            content: '';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .be_our_student h2{
+            display:block;
+            text-align: center;
+        }
+        .be_our_student p{
+            display:block;
+            text-align: center;
+            color:#ababab
+        }
+        .be_our_student .panel{
+            margin-top:80px
+        }
+        .be_our_student .panel .left{
+            width:300px;
+            margin-left:70px;
+            float:left
+        }
+        .be_our_student .panel .right{
+            float:left
+        }
+        .be_our_student .panel .right label{
+            display:block
+        }
+
+
+
+        .footer{
+            height:420px;
+            background-color: #33363f;
+        }
+        .footer h1,.footer p{
+            display:block;
+            text-align: center;
+            color:#ffffff
+        }
+        .footer h1{
+            padding-top:50px;
+        }
+        .footer .footer_email{
+            text-align: center;
+        }
+        .footer .footer_email input{
+            border:none;
+            height:38px;
+            width:430px
+        }
+
+
+        .footer .footer_email button{
+            border:none;
+            height:40px;
+            width:110px;
+            background-color: #717179;
+            color:#ffffff
+        }
+        .footer .shops{
+            margin-top:50px;
+            text-align: center;
+        }
+
+
+        .footer .shops .iconfont{
+            font-size: 4em;
+            color:#ffffff;
+            margin-left:35px;
+        }
+
+        .footer .bottom{
+            padding-top: 50px;
+            margin-top: 50px;
+            padding-bottom: 70px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: #30303a;
+            color: #ffffff;
+            overflow: auto;
+        }
+
+        .footer .bottom span.left{
+            float:left
+        }
+        .footer .bottom span.right{
+            float:right
+        }
+
+        .about{
+            text-align: center;
+            background-color: #ededed;
+            padding-top:80px;
+            padding-bottom:80px
+        }
+        .about .iconfont{
+            font-size: 10em;
+            color:#E65153
+        }
+        .about .text{
+            font-size: 5em;
+            color:#ababab
+        }
+
+
+
+        .exam_list{
+            padding-left:145px;
+            padding-top:40px;
+            padding-bottom: 80px;
+            background-color: #f7f7f7;
+            overflow:auto;
+        }
+        .exam_list .item{
+            float:left;
+            margin-right:35px;
+            width:220px;
+        }
+        .exam_list .img{
+            padding-left:10px;
+            padding-right:10px;
+            padding-top:50px;
+            padding-bottom:50px;
+            border:solid 1px #ededed;
+        }
+        .exam_list h3{
+            font-size:1em;
+            font-weight: bold;
+        }
+        .exam_list h4{
+            font-size:0.7em;
+            font-weight: normal;
+            color:#919191
+        }
     </style>
 
 
@@ -257,27 +448,27 @@
     <link href="//at.alicdn.com/t/font_obf443nibtwhr529.css" rel="stylesheet">
 
 </head>
-<body style="min-width: 1280px">
+<body style="min-width: 1200px">
 <header>
-    <div class="logo">
+    <div id="logo" class="logo">
         <img height="57" src="https://img.alicdn.com/imgextra/i4/1918351295/TB2VXzApXXXXXXYXFXXXXXXXXXX_!!1918351295.png" />
     </div>
     <nav>
         <ul>
             <li class="active">
-                <a href="#" >首页</a>
+                <a href="/" >首页</a>
             </li>
             <li>
-                <a href="#" >天猫店铺</a>
+                <a href="http://wwts.tmall.com" >天猫店铺</a>
             </li>
             <li>
-                <a href="#" >课程试听</a>
+                <a href="http://shiting.baitizhan.com" >课程试听</a>
             </li>
             <li>
                 <a href="#" >关于我们</a>
             </li>
             <li>
-                <a href="#" >题库登录</a>
+                <a href="http://www.baitizhan.com" >题库登录</a>
             </li>
         </ul>
     </nav>
@@ -291,7 +482,7 @@
             <span class="word_1">热烈庆祝本站考生</span>
             <span class="word_2">2017年通过率高达</span>
             <span  class="word_btn">签约取证 不过退费</span>
-            <a>立即报名 <i class="iconfont icon-you"></i></a>
+            <a href="https://wwts.tmall.com/category.htm?spm=a1z10.5-b.w5001-2762098911.17.FtUpbZ&search=y&scene=taobao_shop" target="_blank">立即报名 <i class="iconfont icon-you"></i></a>
         </div>
     </div>
     <div class="ensure">
@@ -332,22 +523,6 @@
             </div>
         </div>
     </div>
-<style>
-    .about{
-        text-align: center;
-        background-color: #ededed;
-        padding-top:80px;
-        padding-bottom:80px
-    }
-    .about .iconfont{
-        font-size: 10em;
-        color:#E65153
-    }
-    .about .text{
-        font-size: 5em;
-        color:#ababab
-    }
-</style>
     <div class="about">
         <div> <i class="iconfont icon-book"></i> </div>
         <div class='text'> 关于百题斩，您想知道的都在这里</div>
@@ -363,75 +538,45 @@
         </div>
 
     </div-->
-    <style>
-        .exam_list{
-            padding-left:145px;
-            padding-top:40px;
-            padding-bottom: 80px;
-            background-color: #f7f7f7;
-            overflow:auto;
-        }
-        .exam_list .item{
-            float:left;
-            margin-right:35px;
-            width:220px;
-        }
-        .exam_list .img{
-            padding-left:10px;
-            padding-right:10px;
-            padding-top:50px;
-            padding-bottom:50px;
-            border:solid 1px #ededed;
-        }
-        .exam_list h3{
-            font-size:1em;
-            font-weight: bold;
-        }
-        .exam_list h4{
-            font-size:0.7em;
-            font-weight: normal;
-            color:#919191
-        }
-    </style>
     <div class="exam_list">
         <div class="item">
             <div class="img">
                 <img src="https://img.alicdn.com/bao/uploaded/i4/TB1B8hJPXXXXXbbXXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" />
             </div>
-            <p class="title">
-                <h3>2017年初级会计职称考试</h3>
+            <div class="title">
+            <h3>2017年初级会计职称考试</h3>
 
-                <h4>官方指定教材 + 学习视频 + 训练题库</h4>
-            </p>
+            <h4>官方指定教材 + 学习视频 + 训练题库</h4>
+            </div>
         </div>
         <div class="item">
-            <p class="title">
+            <div class="img">
+                <img src="https://img.alicdn.com/bao/uploaded/i4/TB1gKoJPpXXXXaEXXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" />
+            </div>
+            <div class="title">
             <h3>2017年银行从业资格考试</h3>
 
             <h4>官方指定教材 + 学习视频 + 训练题库</h4>
-            </p>
-            <div class="img">
-                <img src="https://img.alicdn.com/bao/uploaded/i4/TB1gKoJPpXXXXaEXXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" />
             </div>
         </div>
         <div class="item">
             <div class="img">
                 <img src="https://img.alicdn.com/bao/uploaded/i4/TB1Yd3VPFXXXXcpaXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" />
             </div>
-            <p class="title">
+            <div class="title">
                 <h3>2017年中级会计职称考试</h3>
 
                 <h4>官方正版教材 + 学习视频 + 训练题库</h4>
-            </p>
+            </div>
         </div>
         <div class="item">
             <div class="img">
                 <img src="https://img.alicdn.com/bao/uploaded/i2/TB1ndSBPFXXXXbwXXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" />
             </div>
-            <p class="title">
+            <div class="title">
                 <h3>2017年基金从业资格考试</h3>
                 <h4>官方正版教材 + 学习视频 + 训练题库</h4>
-            </p>
+            </div>
         </div>
     </div>
 
@@ -447,7 +592,7 @@
             <div class="right">
                 <h1>百题斩在线题库</h1>
                 <p>百题斩在线学习系统自2013年3月至2017年03月已服务考生13万8千6百53人，回访的2万考生中，通过考试人数超过1万8千人。</p>
-                <a href="#" class="btn_border"> 咨询客服 </a>
+                <a href="https://amos.alicdn.com/getcid.aw?v=3&groupid=0&s=1&charset=utf-8&uid=伟文图书专营店&site=cntaobao&groupid=0&s=1&fromid=cntaobaoAlpa/ZK2YiFQkF-i3PvuHBIrqg58vt5O" target="_blank" class="btn_border"> 咨询客服 </a>
             </div>
         </div>
 
@@ -456,16 +601,16 @@
 
         <div class='introduce_2'>
             <div class="left">
-                <h3>百题斩在线题库</h3>
+                <h3>初级会计职称考试</h3>
                 <h4>百题斩在线学习系统</h4>
                 <div class="line_short"></div>
-                <a href="#" class="btn_border btn_white"> 咨询客服 </a>
+                <a target="_blank" href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-2636569109.125.HD5xau&id=42760332524&rn=2897c190693820aecb5f44589294596d&abbucket=13" class="btn_border btn_white"> 咨询客服 </a>
             </div>
             <div class="middle">
-                <h3>百题斩在线题库</h3>
+                <h3>中级会计职称考试</h3>
                 <h4>百题斩在线学习系统</h4>
                 <div class="line_short red"></div>
-                <a href="#" class="btn_border btn_red"> 咨询客服 </a>
+                <a target="_blank" href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-2636569109.38.HD5xau&id=540735880162&rn=2897c190693820aecb5f44589294596d&abbucket=13" class="btn_border btn_red"> 咨询客服 </a>
             </div>
             <div class="right">
                 <div id="triangle-right"></div>
@@ -478,41 +623,6 @@
     <div style="clear:both"></div>
 
 
-    <style>
-        .be_our_student{
-            padding: 50px;
-        }
-        .be_our_student:after{
-            content: '';
-            display: block;
-            height: 0;
-            visibility: hidden;
-            clear: both;
-        }
-        .be_our_student h2{
-            display:block;
-            text-align: center;
-        }
-        .be_our_student p{
-            display:block;
-            text-align: center;
-            color:#ababab
-        }
-        .be_our_student .panel{
-            margin-top:80px
-        }
-        .be_our_student .panel .left{
-            width:300px;
-            margin-left:70px;
-            float:left
-        }
-        .be_our_student .panel .right{
-            float:left
-        }
-        .be_our_student .panel .right label{
-            display:block
-        }
-    </style>
     <div class="be_our_student">
         <h2>成为我们的学员</h2>
         <div class="line_short red"></div>
@@ -527,152 +637,67 @@
                 <p>手机端 + 电脑端学习资料</p>
                 <div class="more_words">更多信息</div>
             </div>
-            <style>
-                .right .group{
-                    padding-bottom: 2px;
-                    margin:10px;
-                    background-color: #ededef;
-                }
-                .right .group.textarea{
-                    padding-top:20px;
-                }
-                .right label{
-                    padding-left: 25px;
-                }
-                .right input{
-                    border:none;
-                    height:40px;
-                    width:640px;
-                    background-color: #ededef
-
-                }
-                .right textarea{
-                    border:none;
-                    display: block;
-                    width: 691px;
-                    height: 123px;
-                    resize:none;
-                    background-color: #ededef
-                }
-                .right .btn_offer{
-                    width: 80%;
-                    background-color: #ffffff;
-                    margin-left: 50px;
-                }
-            </style>
             <div class="right">
-                <div class="group">
-                    <label>
-                        姓名：<input name="name" placeholder="请输入考生姓名" />
-                    </label>
-                </div>
-                <div class="group">
-                    <label>
-                        年龄：<input name="years" placeholder="请输入考生年龄" />
-                    </label>
-                </div>
-                <div class="group">
-                    <label>
-                        联系方式：<input name="years" placeholder="请输入联系方式" />
-                    </label>
-                </div>
-                <div class="group textarea">
-                    <label>
-                        简单描述你的学习目标：
-                    <textarea>
+                <form id="WantToBuy">
 
-                    </textarea>
-                    </label>
-                </div>
-                <div class="btn_box">
-                    <a class="btn_border btn_red btn_offer">提交申请</a>
-                </div>
+                    <div class="group">
+                        <label>
+                            姓名：<input name="name" placeholder="请输入考生姓名" />
+                        </label>
+                    </div>
+                    <div class="group">
+                        <label>
+                            年龄：<input name="years" placeholder="请输入考生年龄" />
+                        </label>
+                    </div>
+                    <div class="group">
+                        <label>
+                            联系方式：<input name="tel" placeholder="请输入联系方式" />
+                        </label>
+                    </div>
+                    <div class="group textarea">
+                        <label>
+                            简单描述你的学习目标：
+                    <textarea name="score"></textarea>
+                        </label>
+                    </div>
+                    <div class="btn_box">
+                        <a id="add_offer" class="btn_border btn_red btn_offer">提交申请</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
-    <style>
-        .footer{
-            height:420px;
-            background-color: #33363f;
-        }
-        .footer h1,.footer p{
-            display:block;
-            text-align: center;
-            color:#ffffff
-        }
-        .footer h1{
-            padding-top:50px;
-        }
-        .footer .footer_email{
-            text-align: center;
-        }
-        .footer .footer_email input{
-            border:none;
-            height:38px;
-            width:430px
-        }
-
-
-        .footer .footer_email button{
-            border:none;
-            height:40px;
-            width:110px;
-            background-color: #717179;
-            color:#ffffff
-        }
-        .footer .shops{
-            margin-top:50px;
-            text-align: center;
-        }
-
-
-        .footer .shops .iconfont{
-            font-size: 4em;
-            color:#ffffff;
-            margin-left:15px;
-        }
-
-        .footer .bottom{
-            padding-top: 50px;
-            margin-top: 50px;
-            padding-bottom: 70px;
-            padding-left: 30px;
-            padding-right: 30px;
-            background-color: #30303a;
-            color: #ffffff;
-            overflow: auto;
-        }
-
-        .footer .bottom span.left{
-            float:left
-        }
-        .footer .bottom span.right{
-            float:right
-        }
-    </style>
     <div class="footer">
         <div>
             <h1>联系我们</h1>
             <p>
-                为了更好的获取我们的产品咨询，为您服务。你可以留下您的电子邮箱，快速订阅我们的产品资讯
-                <br/>
+                如果您需要购买百题斩在线学习系统账号，可以点击下方 "天猫" 或 "京东"店铺，联系客服进行购买。
             </p>
         </div>
-        <div class="footer_email">
-            <input name="email" /><button>提交</button>
-        </div>
+        <!--div class="footer_email">
+            <input name="email" type="email" /><button>提交</button>
+        </div -->
         <div class="shops">
-            <i class="iconfont icon-tianmao"  ></i>
-            <i class="iconfont icon-jingdong" /></i>
-            <i class="iconfont icon-weixin" /></i>
+            <a target="_blank" href="http://wwts.tmall.com" ><i class="iconfont icon-tianmao"  ></i></a>
+            <a target="_blank" href="https://mall.jd.com/index-630337.html"><i class="iconfont icon-jingdong" /></i></a>
+            <a href="javascript:void(0)" onclick="layer.alert('<img width=100% src=http://7bv9xw.com1.z0.glb.clouddn.com/qrcode_for_gh_dbe9793bf1de_430-1.jpg />' , { title : '微信扫码关注'})" ><i class="iconfont icon-weixin" /></i></a>
             <i class="iconfont icon-iconfontweibowukuang" /></i>
         </div>
         <div class="bottom">
             <span class="left">@百题斩</span>
-            <span class="right">返回顶部</span>
+            <span class="right"><a id="back_top" href="#logo">返回顶部</a></span>
         </div>
     </div>
 </div>
+
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+<script>
+    $('#add_offer').click(function(){
+        layer.msg( $('#WantToBuy').serialize() );
+    })
+</script>
 </body>
 </html>
