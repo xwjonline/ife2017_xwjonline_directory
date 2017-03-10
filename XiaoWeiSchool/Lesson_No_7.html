@@ -254,10 +254,10 @@
 
 
     <!-- ali-icon -->
-    <link href="//at.alicdn.com/t/font_dgilzs4x3ta3v7vi.css" rel="stylesheet">
+    <link href="//at.alicdn.com/t/font_obf443nibtwhr529.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="min-width: 1280px">
 <header>
     <div class="logo">
         <img height="57" src="https://img.alicdn.com/imgextra/i4/1918351295/TB2VXzApXXXXXXYXFXXXXXXXXXX_!!1918351295.png" />
@@ -527,23 +527,66 @@
                 <p>手机端 + 电脑端学习资料</p>
                 <div class="more_words">更多信息</div>
             </div>
+            <style>
+                .right .group{
+                    padding-bottom: 2px;
+                    margin:10px;
+                    background-color: #ededef;
+                }
+                .right .group.textarea{
+                    padding-top:20px;
+                }
+                .right label{
+                    padding-left: 25px;
+                }
+                .right input{
+                    border:none;
+                    height:40px;
+                    width:640px;
+                    background-color: #ededef
+
+                }
+                .right textarea{
+                    border:none;
+                    display: block;
+                    width: 691px;
+                    height: 123px;
+                    resize:none;
+                    background-color: #ededef
+                }
+                .right .btn_offer{
+                    width: 80%;
+                    background-color: #ffffff;
+                    margin-left: 50px;
+                }
+            </style>
             <div class="right">
-                <label>
-                    <input value="name" placeholder="姓名" />
-                </label>
-                <label>
-                    <input value="years" placeholder="年龄" />
-                </label>
-                <label>
-                    <input value="tel" placeholder="联系方式" />
-                </label>
-                <label>
-                    <input value="add" placeholder="联系地址" />
-                </label>
-            <textarea>
-                简单描述你的学习目标
-            </textarea>
-                <button>提交申请</button>
+                <div class="group">
+                    <label>
+                        姓名：<input name="name" placeholder="请输入考生姓名" />
+                    </label>
+                </div>
+                <div class="group">
+                    <label>
+                        年龄：<input name="years" placeholder="请输入考生年龄" />
+                    </label>
+                </div>
+                <div class="group">
+                    <label>
+                        联系方式：<input name="years" placeholder="请输入联系方式" />
+                    </label>
+                </div>
+                <div class="group textarea">
+                    <label>
+                        简单描述你的学习目标：
+                    <textarea>
+
+                    </textarea>
+                    </label>
+                </div>
+                <div class="btn_box">
+                    <a class="btn_border btn_red btn_offer">提交申请</a>
+                </div>
             </div>
         </div>
     </div>
@@ -551,7 +594,7 @@
     <style>
         .footer{
             height:420px;
-            background-color: #000000;
+            background-color: #33363f;
         }
         .footer h1,.footer p{
             display:block;
@@ -560,6 +603,52 @@
         }
         .footer h1{
             padding-top:50px;
+        }
+        .footer .footer_email{
+            text-align: center;
+        }
+        .footer .footer_email input{
+            border:none;
+            height:38px;
+            width:430px
+        }
+
+
+        .footer .footer_email button{
+            border:none;
+            height:40px;
+            width:110px;
+            background-color: #717179;
+            color:#ffffff
+        }
+        .footer .shops{
+            margin-top:50px;
+            text-align: center;
+        }
+
+
+        .footer .shops .iconfont{
+            font-size: 4em;
+            color:#ffffff;
+            margin-left:15px;
+        }
+
+        .footer .bottom{
+            padding-top: 50px;
+            margin-top: 50px;
+            padding-bottom: 70px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: #30303a;
+            color: #ffffff;
+            overflow: auto;
+        }
+
+        .footer .bottom span.left{
+            float:left
+        }
+        .footer .bottom span.right{
+            float:right
         }
     </style>
     <div class="footer">
@@ -570,12 +659,18 @@
                 <br/>
             </p>
         </div>
-        <div>
+        <div class="footer_email">
             <input name="email" /><button>提交</button>
         </div>
+        <div class="shops">
+            <i class="iconfont icon-tianmao"  ></i>
+            <i class="iconfont icon-jingdong" /></i>
+            <i class="iconfont icon-weixin" /></i>
+            <i class="iconfont icon-iconfontweibowukuang" /></i>
+        </div>
         <div class="bottom">
-            <span>百题斩</span>
-            <span>返回顶部</span>
+            <span class="left">@百题斩</span>
+            <span class="right">返回顶部</span>
         </div>
     </div>
 </div>
